@@ -1,0 +1,195 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 100px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.513),rgba(0,0,0,0.7)), url(Images/25423-1920x1080-desktop-full-hd-national-geographic-background-image.jpg);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+    
+}
+header h1{
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 300%;
+    color: white;
+}
+header a{
+    color: wheat;
+    padding: 10px;
+    text-decoration: none;
+    font-size: larger;
+}
+hr{
+    border: none;
+    background-color: burlywood;
+    height: 5px;
+    position: relative;
+    bottom: 8px;
+}
+main{
+    height: 1200px;
+}
+.img1{
+    background-image: url(Images/01500295.jpg);
+    height: 300px;
+    width: 400px;
+    margin: 0px;
+    border: 4px solid rgb(234, 255, 0);
+}
+.blog1{
+    height: 300px;
+    width: 670px;
+    background-color: white;
+    margin: 0px;
+    position: relative;
+    left: 410px;
+    bottom: 305px;
+    border: 1px solid black;
+}
+.blog1 h2{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+.blog1 p{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: monospace;
+    font-size: larger;
+}
+.img2{
+    background-image: url(Images/435.avif);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+    margin: 0px;
+    border: 4px solid rgb(234, 255, 0);
+    position: relative;
+    bottom: 200px;
+}
+.blog2{
+    height: 300px;
+    width: 670px;
+    background-color: white;
+    margin: 0px;
+    position: relative;
+    left: 410px;
+    bottom: 505px;
+    border: 1px solid black;
+}
+.blog2 h2{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+.blog2 p{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: monospace;
+    font-size: larger;
+}
+.img3{
+    background-image: url(Images/5bd4055e80963-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+    margin: 0px;
+    border: 4px solid rgb(234, 255, 0);
+    position: relative;
+    bottom: 400px;
+}
+.blog3{
+    height: 300px;
+    width: 670px;
+    background-color: white;
+    margin: 0px;
+    position: relative;
+    left: 410px;
+    bottom: 705px;
+    border: 1px solid black;
+}
+.blog3 h2{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+.blog3 p{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: monospace;
+    font-size: larger;
+}
+footer{
+    background-color: rgb(244, 255, 122);
+    text-align: center;
+    padding: 30px;
+}
+#line2{
+    position: relative;
+    top: 10px;
+}
+#Date{
+    position: relative;
+    bottom: 110px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+}
+#Scroll{
+    background-color: rgb(232, 232, 26);
+    border: 1px solid black;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 6px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+}
+#Scroll:hover{
+    background-color: rgb(244, 244, 72);
+}
+.post-title{
+    cursor: pointer;
+}
+.post-content{
+    display: none;
+}
+#abtPage{
+    height: 200px;
+}
+#abt{
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+#icons{
+    text-align: center;
+    background-color: beige;
+    padding: 70px;
+}
+.fb{
+    height: 50px;
+    padding: 30px 20px;
+}
+.inst{
+    height: 51px;
+    position: relative;
+    top: 1px;
+    padding: 30px 20px;
+}
+.x{
+    height: 50px;
+    position: relative;
+    top: 1px;
+    padding: 30px 20px;
+}
+#cnctPage{
+    height: 250px;
+}
